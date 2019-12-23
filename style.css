@@ -1,0 +1,14 @@
+.bg-lightgrey{
+  background-color: lightgrey;
+  margin: 0px;
+  height: 100vh;
+}
+.container{
+  padding-top: 80px;
+}
+a{
+  margin: auto;
+  margin-right: 20px;
+  color : white;
+  text-decoration: none;
+}
