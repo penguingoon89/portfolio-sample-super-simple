@@ -1,14 +1,31 @@
 @media screen and (max-width:1024px) {
-  /* 사용자 해상도가 1024px 이상일 때 이 코드가 실행됨. 데스크톱 해당. */
+  /* 사용자 해상도가 1024px 이하일 때 이 코드가 실행됨. 데스크톱 해당. */
 
 }
 @media screen and (max-width:768px) {
-  /* 사용자 해상도가 768px 이상일 때 이 코드가 실행됨. 아마도 태블릿 해당. */
+  /* 사용자 해상도가 768px 이하일 때 이 코드가 실행됨. 아마도 태블릿 해당. */
   
 }
 @media screen and (max-width:480px) {
-  /* 사용자 해상도가 480px 이상일 때 이 코드가 실행됨. 모바일 해당. */
+  /* 사용자 해상도가 480px 이하일 때 이 코드가 실행됨. 모바일 해당. */
   nav {
     display: none !important;
+  }
+  .about{
+    background-image: url('frontend-mobile.png'); 
+    height: 500px;
+  }
+  .intro{
+    font-size: 16px; 
+    margin: -10px;  
+  }
+  .skill{
+    color: white;
+    font-size: 20px;
+    display: table-cell; 
+    vertical-align: middle
+  }
+  .fa-bars{
+    display: block !important;
   }
 }

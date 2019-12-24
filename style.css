@@ -5,10 +5,43 @@
 }
 .container{
   padding-top: 80px;
+  margin: 0px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.fa-bars{
+  font-size: 1.5em !important;
+  margin: auto;
+  margin-right: 10px;
+  color: white;
+  display: none !important;
 }
 a{
   margin: auto;
   margin-right: 20px;
   color : white;
   text-decoration: none;
+}
+.about{
+  background: darkslategrey url('frontend.jpeg'); 
+  background-size: 100% 100%;  
+  background-blend-mode: multiply;
+  opacity: 0.8;  
+  height: 600px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.skill{
+  color: white;
+  font-size: 30px;
+  display: table-cell; 
+  vertical-align: middle
+}
+.intro{
+  font-size: 20px; 
+  margin: -15px;  
+}
+.skill .skills {
+  text-align: center;
 }
