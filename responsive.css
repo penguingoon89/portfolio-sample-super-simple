@@ -11,15 +11,15 @@
   nav {
     display: none !important;
   }
-  .about{
+  .home{
     background-image: url('frontend-mobile.png'); 
-    height: 500px;
+    height: 300px;
   }
   .intro{
     font-size: 16px; 
     margin: -10px;  
   }
-  .skill{
+  .announce{
     color: white;
     font-size: 20px;
     display: table-cell; 
@@ -27,5 +27,21 @@
   }
   .fa-bars{
     display: block !important;
+  }
+  .mobile-horizontal-line{ display: block; height: 30px;}
+  .about{ display: block !important; }
+  .about-me{
+    width: 100%;
+    margin : 0px;
+  }
+  #my-history{
+    padding-inline-start: 20px;
+  }
+  #about-start{
+    display: block !important;
+    width: 95% !important;
+  }
+  #about-end{
+    width: 95% !important;
   }
 }

@@ -20,11 +20,12 @@
   </head>
   <body class="bg-lightgrey">
     <!-- Sidebar/menu -->
-    <header style="background-color:tomato; width:100vw; display: flex; justify-content: space-between; position: fixed; height: 80px; z-index: 9999;">
+    <header style="background-color:#626262; width:100vw; display: flex; justify-content: space-between; position: fixed; height: 80px; z-index: 9999;">
       <h2 style="line-height:80px; margin: auto; margin-left: 10px; color:white;">DOOHAN KIM</h2>
       <nav style="display: flex;">
         <a href="#">HOME</a>
         <a href="#about">ABOUT</a>
+        <a href="#skill">SKILLS</a>
         <a href="#contact">CONTACT</a>
       </nav>
       <i class="fa fa-bars" onclick="console.log('!')"></i>
@@ -32,13 +33,47 @@
 
     <!-- Webpage contents -->
     <div class="container">
-      <div class="about">
-        <div class="skill">
+
+      <!-- HOME -->
+      <section class="home">
+        <div class="announce">
         <p class="intro">나날이 성장하는 웹개발 유망주</p>
         <p>프론트엔드 개발자 김두한입니다.</p>
         <p class="skills">#react #node #python #frontend</p>
         </div>  
-      </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section style="margin: 30px; text-align: center;">
+        <img src="doohan.png" style="border-radius: 50%; width: 25%; min-width: 100px;">
+        <p><strong id="eng-name">DOOHAN KIM</strong></p>
+        <div class="about" style="display: flex; justify-content: center;">
+          <hr id="about-start" style="width: 80%; margin-top: 30px; margin-bottom: 30px; display:none; ">
+          <div class="about-me">
+            <h2 style="color:crimson">"끈기와 도전정신"</h2>
+            <p>
+              <span>"즐기는 자가 성공한다"</span>는 말을 믿습니다. 꾸준히 새로움을 추구함과 동시에 독창적인 방식을 만들어나가는 것을 좋아합니다.
+              성공에 취하지 않고, 실패에 좌절하지 않으며 묵묵히 앞으로 나아가겠습니다. <span>유망주를 넘어 에이스가 될 준비가 되어 있습니다.</span>
+            </p>
+          </div>
+          <div class="mobile-horizontal-line"></div>
+          <div class="about-me">
+            <div>
+              <h2>HISTORY</h2>
+              <ul id="my-history" style="list-style: none;">
+                <li>- 1918년 출생</li>
+                <li>- 1954년 제 3대 민의원</li>
+                <li>- 1965년 한국독립당 용산구 국회의원</li>
+                <li>- 1972년 사망</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr id="about-end" style="width: 80%; margin-top: 30px; margin-bottom: 30px; ">
+      </section>
+
+      <footer style="height:100px; background-color:#626262">
+      </footer>
     </div>
 
   </body>

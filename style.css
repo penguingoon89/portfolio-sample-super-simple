@@ -1,5 +1,5 @@
 .bg-lightgrey{
-  background-color: lightgrey;
+  background-color: white;
   margin: 0px;
   height: 100vh;
 }
@@ -22,7 +22,7 @@ a{
   color : white;
   text-decoration: none;
 }
-.about{
+.home{
   background: darkslategrey url('frontend.jpeg'); 
   background-size: 100% 100%;  
   background-blend-mode: multiply;
@@ -32,7 +32,7 @@ a{
   display: table;
   width: 100%;
 }
-.skill{
+.announce{
   color: white;
   font-size: 30px;
   display: table-cell; 
@@ -44,4 +44,29 @@ a{
 }
 .skill .skills {
   text-align: center;
+}
+
+.about p{
+  margin : 20px;
+}
+
+#eng-name{
+  font-size: 30px;
+}
+span{
+  color: crimson;
+  font-weight: bold;
+}
+.about-me{
+  width: 35%;
+  margin: 10px;
+}
+.about-me p{
+  font-size: 18px;
+  line-height: 1.5em;
+}
+#my-history li{
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: left;
 }
