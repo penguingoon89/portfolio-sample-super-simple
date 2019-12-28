@@ -70,3 +70,35 @@ span{
   line-height: 1.5em;
   text-align: left;
 }
+
+.each-skill{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.all-skills {
+  margin : 40px 0px 30px 0px;
+}
+
+.each-skill p{
+  margin: auto;
+  margin-right: 20px;
+  margin-left: 0;
+}
+.guage-bar{
+  border : 0.5px solid #aeaeae;
+  background-color: white; 
+  width: 60%; 
+  height: 20px;
+}
+
+.guage{
+  background-color: gray; width: 80%; height: 100%;
+}
+.guage p{
+  margin: auto;
+  color: white;
+}
