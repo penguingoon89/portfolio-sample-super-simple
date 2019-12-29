@@ -50,7 +50,7 @@ a{
   margin : 20px;
 }
 
-#eng-name{
+#eng-title{
   font-size: 30px;
 }
 span{
@@ -72,31 +72,41 @@ span{
 }
 
 .each-skill{
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
+  width: 60%;
   margin: auto;
   margin-bottom: 15px;
 }
 
 .all-skills {
-  margin : 40px 0px 30px 0px;
+  margin : 40px 0px 60px 0px;
 }
 
 .each-skill p{
+  font-size: 18px;
+  line-height: 1.5em;
   margin: auto;
   margin-right: 20px;
   margin-left: 0;
 }
+
+.descript{
+  font-size: 14px !important;
+  line-height: 1.3em !important;
+  margin: 5px !important;
+  margin-top: 15px !important;
+  margin-bottom: 30px !important;
+  color: #5c5c5c;
+}
+
 .guage-bar{
   border : 0.5px solid #aeaeae;
   background-color: white; 
-  width: 60%; 
-  height: 20px;
+  height: 24px;
 }
 
 .guage{
   background-color: gray; width: 80%; height: 100%;
+  text-align: center;
 }
 .guage p{
   margin: auto;

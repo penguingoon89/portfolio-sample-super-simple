@@ -1,6 +1,8 @@
 @media screen and (max-width:1024px) {
   /* 사용자 해상도가 1024px 이하일 때 이 코드가 실행됨. 데스크톱 해당. */
-
+  .each-skill{
+    width: 70%;
+  }
 }
 @media screen and (max-width:768px) {
   /* 사용자 해상도가 768px 이하일 때 이 코드가 실행됨. 아마도 태블릿 해당. */
