@@ -1,5 +1,11 @@
+@font-face { font-family: 'GoyangIlsan'; 
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); 
+  font-weight: normal; font-style: normal; 
+}
+body{
+  font-family: 'GoyangIlsan';
+}
 .bg-lightgrey{
-  background-color: white;
   margin: 0px;
   height: 100vh;
 }
