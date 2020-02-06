@@ -91,3 +91,41 @@ hr{
 
 #mind-detail{ font-size: 18px; }
 #mind-detail span{ font-weight: bold; color: crimson;}
+
+/* skill style */
+
+.each-skill{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.all-skills {
+  margin : 40px 0px 60px 0px;
+}
+
+.descript{
+  font-size: 14px !important;
+  line-height: 1.3em !important;
+  margin: 5px !important;
+  margin-top: 15px !important;
+  margin-bottom: 30px !important;
+  color: #5c5c5c;
+}
+
+.guage-bar{
+  border : 0.5px solid #aeaeae;
+  background-color: white; 
+  height: 24px;
+}
+
+.guage{
+  background-color: gray; 
+  height: 100%;
+  text-align: center;
+}
+
+.guage p{
+  margin: auto;
+  color: white;
+}
